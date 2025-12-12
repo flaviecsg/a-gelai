@@ -52,6 +52,81 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "logo_list_EkwcUr": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_kKteQq": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/PinkLogo.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_iaeTQR": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/wemoms.jpg",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_mHgFCf": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo_de_Doctissimo_3.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_dVGpje": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/happybulle-la-maison-des-maternelles-30-mars-2018.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_kKteQq",
+        "logo_iaeTQR",
+        "logo_mHgFCf",
+        "logo_dVGpje"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 5,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "#ffffff",
+        "logo_item_border": ""
+      }
+    },
+    "image_with_text_overlay_NUGwwt": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Sans_titre_2000_x_1500_px_3000_x_1500_px_16.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "before-after-image": {
       "type": "before-after-image",
       "settings": {
@@ -228,6 +303,8 @@
   "order": [
     "image_with_text_overlay_AtMn7a",
     "slideshow",
+    "logo_list_EkwcUr",
+    "image_with_text_overlay_NUGwwt",
     "before-after-image",
     "featured-product",
     "faq"
