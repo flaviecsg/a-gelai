@@ -46,7 +46,7 @@
         "logo_kKteQq": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/PinkLogo.jpg",
+            "logo": "shopify://shop_images/WhatsApp_Image_2025-09-20_at_23.29.57.jpg",
             "logo_width": 300,
             "link": ""
           }
@@ -54,7 +54,7 @@
         "logo_iaeTQR": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/wemoms.jpg",
+            "logo": "shopify://shop_images/WhatsApp_Image_2025-09-20_at_23.35.45.jpg",
             "logo_width": 300,
             "link": ""
           }
@@ -62,7 +62,7 @@
         "logo_mHgFCf": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Logo_de_Doctissimo_3.jpg",
+            "logo": "shopify://shop_images/WhatsApp_Image_2025-09-20_at_23.39.00.jpg",
             "logo_width": 120,
             "link": ""
           }
@@ -70,7 +70,7 @@
         "logo_dVGpje": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/happybulle-la-maison-des-maternelles-30-mars-2018.jpg",
+            "logo": "shopify://shop_images/WhatsApp_Image_2025-09-20_at_23.37.27.jpg",
             "logo_width": 120,
             "link": ""
           }
@@ -99,6 +99,32 @@
         "logo_item_border": ""
       }
     },
+    "rich_text_D3z7Mc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EnRfLd": {
+          "type": "heading",
+          "settings": {
+            "text": "¿Por qué elegir Flexi Pro?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_EnRfLd"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_NUGwwt": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -107,7 +133,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Sans_titre_2000_x_1500_px_3000_x_1500_px_16.png",
+        "image": "shopify://shop_images/Sans_titre_2000_x_1500_px_3000_x_1500_px_17.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -115,26 +141,45 @@
         "overlay_opacity": 0
       }
     },
-    "before-after-image": {
-      "type": "before-after-image",
+    "rich_text_NqcfBY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M9Tr8j": {
+          "type": "heading",
+          "settings": {
+            "text": "Antes/Después",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_M9Tr8j"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "expand_image": false,
+        "content_width": "small",
         "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
+        "text_color": ""
+      }
+    },
+    "video_kpVVQM": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Ajouter un titre (7).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "multi_column_cnhKWn": {
@@ -188,7 +233,7 @@
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
-        "subheading": "About",
+        "subheading": "",
         "title": "Featured content",
         "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
         "background": "",
@@ -351,8 +396,10 @@
     "image_with_text_overlay_AtMn7a",
     "slideshow",
     "logo_list_EkwcUr",
+    "rich_text_D3z7Mc",
     "image_with_text_overlay_NUGwwt",
-    "before-after-image",
+    "rich_text_NqcfBY",
+    "video_kpVVQM",
     "multi_column_cnhKWn",
     "featured-product",
     "faq"
