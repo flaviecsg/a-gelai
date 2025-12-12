@@ -11,30 +11,18 @@
   "sections": {
     "image_with_text_overlay_AtMn7a": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_NEgbpH": {
-          "type": "heading",
-          "settings": {
-            "text": "Enfin des nuits sereines grâce à la surveillance intelligente AngelAI",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_NEgbpH"
-      ],
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ff151426-56c1-4e64-908b-d9317114d649.png",
+        "image": "shopify://shop_images/Retirez_un_raccord_PVC_Colle_en_quelques_secondes_2.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "slideshow": {
