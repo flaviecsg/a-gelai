@@ -338,6 +338,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "liquid_4UqxGt": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Payment Options</title>\n    <style>\n        body.unique-body-Pay123 {\n            font-family: Arial, sans-serif;\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            margin: 0;\n            background-color: #f9f9f9;\n        }\n        .unique-payment-container-Xyz456 {\n            text-align: center;\n        }\n        .unique-payment-options-Abc789 {\n            display: flex;\n            justify-content: center;\n            gap: 10px;\n        }\n        .unique-payment-options-Abc789 img {\n            width: 50px;\n            height: auto;\n        }\n    </style>\n</head>\n<body class=\"unique-body-Pay123\">\n    <div class=\"unique-payment-container-Xyz456\">\n        <div class=\"unique-payment-options-Abc789\">\n            <img src=\"https://www.svgrepo.com/show/14823/amex.svg\" alt=\"AMEX\">\n            <img src=\"https://www.svgrepo.com/show/508402/apple-pay.svg\" alt=\"Apple Pay\">\n            <img src=\"https://www.svgrepo.com/show/508703/mastercard.svg\" alt=\"MasterCard\">\n            <img src=\"https://www.svgrepo.com/show/508716/paypal.svg\" alt=\"PayPal\">\n            <img src=\"https://www.svgrepo.com/show/508690/google-pay.svg\" alt=\"Google Pay\">\n            <img src=\"https://www.svgrepo.com/show/508730/visa-classic.svg\" alt=\"VISA\">\n        </div>\n    </div>\n</body>\n</html>"
+          }
         }
       },
       "block_order": [
@@ -350,7 +356,8 @@
         "description",
         "variant-picker",
         "quantity-selector",
-        "buy-buttons"
+        "buy-buttons",
+        "liquid_4UqxGt"
       ],
       "settings": {
         "full_width": false,
@@ -370,47 +377,116 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_8Hx8wM": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n.testimonials-section {\n  padding: 60px 20px;\n  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);\n  overflow: hidden;\n}\n\n.testimonials-title {\n  text-align: center;\n  font-size: 32px;\n  font-weight: 700;\n  margin-bottom: 40px;\n  line-height: 1.3;\n}\n\n.testimonials-title .highlight {\n  color: #000000;\n}\n\n.testimonials-carousel {\n  display: flex;\n  gap: 20px;\n  animation: scroll 40s linear infinite;\n  width: fit-content;\n}\n\n.testimonials-carousel:hover {\n  animation-play-state: paused;\n}\n\n@keyframes scroll {\n  0% {\n    transform: translateX(0);\n  }\n  100% {\n    transform: translateX(-50%);\n  }\n}\n\n.testimonial-card {\n  background: white;\n  border-radius: 24px;\n  padding: 30px;\n  min-width: 380px;\n  max-width: 380px;\n  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n  transition: transform 0.3s ease, box-shadow 0.3s ease;\n  border: 1px solid rgba(0, 0, 0, 0.1);\n}\n\n.testimonial-card:hover {\n  transform: translateY(-5px);\n  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);\n  border-color: rgba(0, 0, 0, 0.3);\n}\n\n.testimonial-header {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n\n.testimonial-avatar {\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(135deg, #000000 0%, #333333 100%);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  font-weight: 700;\n  font-size: 20px;\n  flex-shrink: 0;\n}\n\n.testimonial-info {\n  display: flex;\n  flex-direction: column;\n}\n\n.testimonial-name {\n  font-weight: 700;\n  font-size: 16px;\n  color: #1a1a1a;\n}\n\n.testimonial-verified {\n  font-size: 13px;\n  color: #000000;\n  display: flex;\n  align-items: center;\n  gap: 4px;\n  font-weight: 600;\n}\n\n.testimonial-stars {\n  color: #FFD700;\n  font-size: 16px;\n  letter-spacing: 2px;\n}\n\n.testimonial-text {\n  font-size: 15px;\n  line-height: 1.7;\n  color: #4b5563;\n  font-style: italic;\n}\n\n@media (max-width: 768px) {\n  .testimonials-title {\n    font-size: 24px;\n  }\n  \n  .testimonial-card {\n    min-width: 300px;\n    max-width: 300px;\n    padding: 24px;\n  }\n}\n</style>\n\n<div class=\"testimonials-section\">\n  <h2 class=\"testimonials-title\">\n    A los fontaneros les <span class=\"highlight\">encanta</span> FlexiPro™\n  </h2>\n  \n  <div class=\"testimonials-carousel\">\n    \n    <!-- Avis 1 - Gain de temps -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">M</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Marc, 43 años - Fontanero</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n        Estaba perdiendo 10 minutos por junta con la pistola de calor. No parece mucho, pero en un día, fácilmente sumaba una hora perdida. Con FlexiPro, lo hago en 30 segundos. Ahora atiendo a dos clientes más al día. Mis ingresos se han disparado y llego a casa antes. Mi esposa me lo agradeció, ¡por primera vez en 15 años! 😅\n      </p>\n    </div>\n\n    <!-- Avis 2 - Plus de brûlures -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">J</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Julien, 38 años - Fontanero</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n        Estaba harto de quemarme las manos con la pistola de calor. En 20 años, me había quemado al menos 15 veces. Algunas eran leves, otras graves; siempre era una pesadilla. Desde FlexiPro, cero quemaduras. Mis manos me lo agradecen. De hecho, mi esposa también; antes se estresaba mucho más cuando salía a trabajar.\n      </p>\n    </div>\n\n    <!-- Avis 3 - Rentabilité -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">T</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Thomas, 35 años - Fontanero e ingeniero de calefacción</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n        249 € por la herramienta, pensé: \"¡Qué caro!\". Luego hice los cálculos: ahorro 45 minutos al día, lo que se traduce en 2 o 3 clientes más a la semana. Se amortizó en una semana. Ahora es pura ganancia. Sin duda, la mejor inversión que he hecho para mi negocio.\n      </p>\n    </div>\n\n    <!-- Avis 4 - Travail propre -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">S</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Sébastien, 41 años - Fontanero de urgencias</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n        Con el decapante, siempre me quedaban manchas negras en el PVC. El cliente lo veía y yo notaba que no estaba 100 % satisfecho. Con FlexiPro, el resultado es impecable. Limpio, ordenado, perfecto. Mi calificación en Google pasó de 4,2 a 4,9 en 3 meses. Ahora los clientes me recomiendan de inmediato.\n      </p>\n    </div>\n\n    <!-- Avis 5 - Vie de famille -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">L</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Laurent, 39 años - Fontanero independiente</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n       Nunca llegaba a casa antes de las 9 p. m. Me perdía las cenas, las tareas de los niños, todo. Mi esposa estaba harta. FlexiPro me ha dado tiempo suficiente para llegar a casa a las 7 p. m. Veo a mis hijos, ceno con la familia. Me ha salvado la vida familiar. Vale su peso en oro.\n      </p>\n    </div>\n\n    <!-- Avis 6 - Autonomie sans électricité -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">K</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Karim, 44 años - Fontanero e ingeniero de calefacción</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n       Lo peor eran las obras sin electricidad. Tenía que bajar a buscar un alargador de 30 metros y luego volver a subir... 15 minutos perdidos cada vez. Con FlexiPro en mi taladro inalámbrico, puedo trabajar en cualquier lugar. En el sótano, el ático, la terraza, me da igual. Marca la diferencia, la verdad.\n      </p>\n    </div>\n\n   \n    <!-- Avis 8 - Fierté professionnelle -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">N</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Nicolas, 52 años - Maestro artesano</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n       Llevo treinta años en el sector y nunca había visto una herramienta tan bien diseñada. Al sacar FlexiPro de mi maletín, el cliente ve inmediatamente que soy un profesional con equipos modernos. Mi credibilidad cambia por completo. Me enorgullece mostrar esta herramienta; ahora es nuestra seña de identidad profesional.\n      </p>\n    </div>\n\n    <!-- Avis 9 - Facilité -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">A</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Antoine, 29 años - Joven fontanero</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n        Mi jefe me estaba dando la lata con el decapante. \"Así lo hemos hecho durante 30 años\". Cuando compré FlexiPro con mi propio dinero y vio los resultados, pidió dos para la empresa. Ahora todo el mundo lo usa. Es mucho más sencillo que nadie quiere volver al decapante.\n      </p>\n    </div>\n\n    <!-- Avis 10 - Image client -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">F</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Fabien, 46 años - Fontanero de urgencias</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">Los clientes solían verme batallar durante 10 minutos con el decapante. Podía ver en sus ojos que pensaban: \"¿Qué hace este tipo?\". Ahora, con FlexiPro, tarda exactamente 30 segundos, y el cliente queda asombrado. Me dicen: \"¡Guau, qué rápido!\". Mis recomendaciones se han disparado. El boca a boca está haciendo su trabajo.\n      </p>\n    </div>\n\n    <!-- DUPLICATE pour boucle infinie -->\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">M</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Marc, 43 años - Fontanero</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n       Estaba perdiendo 10 minutos por junta con la pistola de calor. No parece mucho, pero en un día, fácilmente sumaba una hora perdida. Con FlexiPro, lo hago en 30 segundos. Ahora atiendo a dos clientes más al día. Mis ingresos se han disparado y llego a casa antes. Mi esposa me lo agradeció, ¡por primera vez en 15 años! 😅\n      </p>\n    </div>\n\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">J</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Julien, 38 años - Fontanero</div>\n          <div class=\"testimonial-verified\">\n            ✓Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n        Estaba harto de quemarme las manos con la pistola de calor. En 20 años, me había quemado al menos 15 veces. Algunas eran leves, otras graves; siempre era una pesadilla. Desde FlexiPro, cero quemaduras. Mis manos me lo agradecen. De hecho, mi esposa también; antes se estresaba mucho más cuando salía a trabajar.\n      </p>\n    </div>\n\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">T</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Thomas, 35 años - Fontanero e ingeniero de calefacción</div>\n          <div class=\"testimonial-verified\">\n            ✓Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n      249 € por la herramienta, pensé: \"¡Qué caro!\". Luego hice los cálculos: ahorro 45 minutos al día, lo que se traduce en 2 o 3 clientes más a la semana. Se amortizó en una semana. Ahora es pura ganancia. La mejor inversión que he hecho para mi negocio, sin duda..\n      </p>\n    </div>\n\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">S</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Sébastien, 41 años - Fontanero de urgencias</div>\n          <div class=\"testimonial-verified\">\n           ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n       Con el decapante, siempre me quedaban manchas negras en el PVC. El cliente lo veía y yo notaba que no estaba 100 % satisfecho. Con FlexiPro, el resultado es impecable. Limpio, ordenado, perfecto. Mi calificación en Google pasó de 4,2 a 4,9 en 3 meses. Ahora los clientes me recomiendan de inmediato.\n      </p>\n    </div>\n\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-header\">\n        <div class=\"testimonial-avatar\">L</div>\n        <div class=\"testimonial-info\">\n          <div class=\"testimonial-name\">Laurent, 39 años - Fontanero independiente</div>\n          <div class=\"testimonial-verified\">\n            ✓ Compra verificada\n          </div>\n        </div>\n      </div>\n      <div class=\"testimonial-stars\">★★★★★</div>\n      <p class=\"testimonial-text\">\n        Nunca llegaba a casa antes de las 9 p. m. Me perdía las cenas, las tareas de los niños, todo. Mi esposa estaba harta. FlexiPro me ha dado tiempo suficiente para llegar a casa a las 7 p. m. Veo a mis hijos, ceno con la familia. Me ha salvado la vida familiar. Vale su peso en oro.\n      </p>\n    </div>\n\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "¿Para qué se utiliza exactamente esta herramienta?",
+            "content": "<p>Permite retirar fácilmente un racor de PVC ya pegado, directamente con un destornillador, sin pistola de calor ni roturas innecesarias.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "¿Para qué diámetros de tubería es adecuado?",
+            "content": "<p>El escariador de PVC está diseñado específicamente para diámetros estándar españoles: 32, 40, 50 y 110 mm. Está diseñado únicamente para drenaje de PVC, no para presión de PVC.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "¿Puedo usarlo con cualquier taladro/destornillador?",
+            "content": "<p>Sí ✅, se adapta a todos los destornilladores estándar gracias a su ajuste hexagonal.</p>"
+          }
+        },
+        "item_HzzUg9": {
+          "type": "item",
+          "settings": {
+            "title": "¿Es resistente? ¿Se desgastan rápidamente las cuchillas?",
+            "content": "<p>La herramienta está fabricada en aleación de aluminio de alta calidad con insertos de carburo con certificación ISO. Las hojas son duraderas y se pueden girar hasta cuatro lados para reemplazarlas si es necesario.</p>"
+          }
+        },
+        "item_kXzFe7": {
+          "type": "item",
+          "settings": {
+            "title": "¿Es complicado de utilizar?",
+            "content": "<p>No, es muy fácil de usar: conéctelo a su taladro, colóquelo en el conector y deje que haga su trabajo. En unos segundos, el conector se afloja fácilmente.</p>"
+          }
+        },
+        "item_CmfBGh": {
+          "type": "item",
+          "settings": {
+            "title": "¿Cuáles son las ventajas en comparación con una pistola de calor?",
+            "content": "<p>• Más rápido </p><p>• Más seguro (sin riesgo de quemar o dañar el PVC) </p><p>• Más limpio (resultado limpio y uniforme) </p><p>• No requiere cable de extensión ni calor</p>"
+          }
+        },
+        "item_m9b3MA": {
+          "type": "item",
+          "settings": {
+            "title": "¿El producto está certificado?",
+            "content": "<p>Sí ✅, cumple con RoHS, está probado por SGS, cumple con CE y cuenta con materiales con certificación ISO/GB-T.</p>"
+          }
+        },
+        "item_NUVxXB": {
+          "type": "item",
+          "settings": {
+            "title": "¿Pueden quedar residuos en la tubería?",
+            "content": "<p>No. La varilla central guía naturalmente las virutas hacia afuera durante la rotación. El desbarbado se realiza de forma limpia, sin residuos ni obstrucciones en la tubería.</p>"
+          }
+        },
+        "item_XDrHfE": {
+          "type": "item",
+          "settings": {
+            "title": "¿Se puede utilizar en lugares de difícil acceso?",
+            "content": "<p>Sí. Con un mandril angular, que permite acceder fácilmente a las esquinas, debajo de un fregadero o detrás de un mueble, sin desmontar la instalación.</p>"
+          }
+        },
+        "item_iALDUT": {
+          "type": "item",
+          "settings": {
+            "title": "¿La herramienta también funciona en diámetros grandes?",
+            "content": "<p>Por supuesto. Toda la gama FlexiPro se ha diseñado con tres hojas de carburo, especialmente diseñadas para ofrecer un corte más rápido y suave. Gracias a este diseño, la herramienta es igual de eficaz en diámetros grandes, de hasta 100 mm, sin esfuerzo adicional.</p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_HzzUg9",
+        "item_kXzFe7",
+        "item_CmfBGh",
+        "item_m9b3MA",
+        "item_NUVxXB",
+        "item_XDrHfE",
+        "item_iALDUT"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
+        "support_hours": "",
+        "answer_time": "",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
@@ -418,8 +494,8 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_background": "#000000",
+        "accordion_text_color": "#ffffff"
       }
     }
   },
@@ -433,6 +509,7 @@
     "video_kpVVQM",
     "multi_column_cnhKWn",
     "featured-product",
+    "custom_liquid_8Hx8wM",
     "faq"
   ]
 }
