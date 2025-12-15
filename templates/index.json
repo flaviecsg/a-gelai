@@ -287,6 +287,14 @@
             "heading_tag": "h2"
           }
         },
+        "image_C6p33R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BreathGuard_1500_x_500_px_71.png",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "liquid_d6KWLE": {
           "type": "liquid",
           "settings": {
@@ -367,6 +375,7 @@
       "block_order": [
         "liquid_6aFQ3j",
         "title",
+        "image_C6p33R",
         "liquid_d6KWLE",
         "badges",
         "rating",
