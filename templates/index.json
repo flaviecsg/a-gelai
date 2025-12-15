@@ -272,6 +272,56 @@
         "text_color": ""
       }
     },
+    "rich_text_BEXfcb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tncxVJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Alexis, fundador de Flexi Pro",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_tncxVJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_Xn9NzR": {
+      "type": "video",
+      "blocks": {
+        "play_wV3c3a": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_wV3c3a"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/[ES] Vidéo2 (1)-VEED.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -588,6 +638,8 @@
     "rich_text_NqcfBY",
     "video_kpVVQM",
     "multi_column_cnhKWn",
+    "rich_text_BEXfcb",
+    "video_Xn9NzR",
     "featured-product",
     "custom_liquid_8Hx8wM",
     "video_eekzeg",
