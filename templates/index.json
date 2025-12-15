@@ -275,9 +275,11 @@
     "featured-product": {
       "type": "featured-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
+        "liquid_6aFQ3j": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Customer Rating</title>\n  <style>\n    body.unique-body-Qaz123 {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      height: 100vh;\n      margin: 0;\n      background-color: #fff;\n    }\n\n    .unique-rating-container-Wsx456 {\n      display: flex;\n      align-items: center;\n      font-size: 14px;\n      color: #333; /* Metin rengi */\n    }\n\n    .unique-rating-stars-Edc789 {\n      display: flex;\n      margin-right: 8px;\n    }\n\n    .unique-rating-stars-Edc789 svg {\n      fill: #FFD700; /* Sarı yıldız rengi */\n      width: 16px; /* Küçültülmüş yıldız boyutu */\n      height: 16px; /* Küçültülmüş yıldız boyutu */\n      transition: transform 0.3s;\n    }\n\n    .unique-rating-stars-Edc789 svg:hover {\n      transform: scale(1.3); /* Üzerine gelince büyütme */\n    }\n\n    .unique-rating-text-Rfv012 {\n      font-size: 14px;\n      color: #333; /* Metin rengi */\n    }\n  </style>\n</head>\n<body class=\"unique-body-Qaz123\">\n\n<div class=\"unique-rating-container-Wsx456\">\n  <div class=\"unique-rating-stars-Edc789\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 .587l3.668 7.431 8.144 1.18-5.906 5.434 1.391 8.079L12 18.896l-7.297 3.843 1.391-8.079-5.906-5.434 8.144-1.18z\"/></svg>\n  </div>\n  <span class=\"unique-rating-text-Rfv012\">¡ Nota 4.8/5 por más de 1500 artesanos!</span>\n</div>\n\n</body>\n</html>"
+          }
         },
         "title": {
           "type": "title",
@@ -288,12 +290,6 @@
         "badges": {
           "type": "badges",
           "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
         },
         "rating": {
           "type": "rating",
@@ -324,14 +320,10 @@
             "size_chart_page": ""
           }
         },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy-buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": true,
             "atc_button_background": "",
             "atc_button_text_color": "",
@@ -347,21 +339,19 @@
         }
       },
       "block_order": [
-        "vendor",
+        "liquid_6aFQ3j",
         "title",
         "badges",
-        "price",
         "rating",
         "separator",
         "description",
         "variant-picker",
-        "quantity-selector",
         "buy-buttons",
         "liquid_4UqxGt"
       ],
       "settings": {
         "full_width": false,
-        "product": "",
+        "product": "flexipro®",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
