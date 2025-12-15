@@ -390,6 +390,21 @@
         "text_color": ""
       }
     },
+    "video_eekzeg": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/copy_9E86DA18-9BD9-4A45-A2AE-D770B2EC96FE.mov",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -531,6 +546,7 @@
     "multi_column_cnhKWn",
     "featured-product",
     "custom_liquid_8Hx8wM",
+    "video_eekzeg",
     "faq",
     "contact_APLenn"
   ]
