@@ -185,12 +185,12 @@
     "multi_column_cnhKWn": {
       "type": "multi-column",
       "blocks": {
-        "item_FVxkVd": {
+        "item_j6MqtT": {
           "type": "item",
           "settings": {
-            "video": "shopify://files/videos/copy_1B449FF4-D622-40AF-B265-906C6113E270.MOV",
+            "video": "shopify://files/videos/avis clien.mp4",
             "column_size": "3",
-            "title": "Plomería SD",
+            "title": "Instalaciones Hidrosan SL",
             "heading_tag": "h4",
             "content": "<p>Lo recibí, lo probé de inmediato y me encantó. La herramienta ahorra muchísimo tiempo y permite reparar un accesorio sin problemas. Simple, eficaz... se ha vuelto indispensable en mi camioneta.</p>",
             "link_url": "",
@@ -203,22 +203,9 @@
           "settings": {
             "video": "shopify://files/videos/copy_B8D78DDD-4178-475C-B7B1-264DD09B8601.MOV",
             "column_size": "3",
-            "title": "SARL ROUSSELET",
+            "title": "Fontanería Martínez SL – Madrid",
             "heading_tag": "h4",
             "content": "<p>Una innovación fabulosa, ahora indispensable en mi camión. Probado directamente en PVC de 110 mm: eficaz, limpio y rápido.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_8V3BCU": {
-          "type": "item",
-          "settings": {
-            "video": "shopify://files/videos/copy_8FA6C20D-CA9F-4501-86F7-9270A3958D34_548e81f4-03b6-488e-91cd-b12ac023638d.MOV",
-            "column_size": "3",
-            "title": "Plomería CDS",
-            "heading_tag": "h4",
-            "content": "<p>¡Adiós pistolas de calor, hola FlexiPro! Una herramienta que transforma mi trabajo: más rápido, más seguro, más rentable. Cada minuto ahorrado significa un cliente más satisfecho.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -229,7 +216,7 @@
           "settings": {
             "video": "shopify://files/videos/copy_890ECB8F-11D3-49F7-9DBF-FCDFCE6C3573.mov",
             "column_size": "3",
-            "title": "Gabriel - Plomero",
+            "title": "Reformas y Fontanería",
             "heading_tag": "h4",
             "content": "<p>¡Adiós pistolas de calor, hola FlexiPro! Una herramienta que transforma mi trabajo: más rápido, más seguro, más rentable. Cada minuto ahorrado significa un cliente más satisfecho.</p>",
             "link_url": "",
@@ -242,7 +229,7 @@
           "settings": {
             "video": "shopify://files/videos/53da7a6f-b238-4f81-b96f-c77f8e942828.mov",
             "column_size": "3",
-            "title": "Nicolas - Particular",
+            "title": "Servicios Técnicos López",
             "heading_tag": "h4",
             "content": "<p>He estado haciendo muchos trabajos en casa y buscaba una solución limpia para mis accesorios de PVC. El resultado fue perfecto en segundos con solo un destornillador. Es justo lo que necesitaba.</p>",
             "link_url": "",
@@ -252,9 +239,8 @@
         }
       },
       "block_order": [
-        "item_FVxkVd",
+        "item_j6MqtT",
         "item_DHrmiA",
-        "item_8V3BCU",
         "item_DjYcBT",
         "item_B8E7Pc"
       ],
