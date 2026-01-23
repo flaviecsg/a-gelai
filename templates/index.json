@@ -9,20 +9,31 @@
  */
 {
   "sections": {
-    "image_with_text_overlay_AtMn7a": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
+    "video_4mca6b": {
+      "type": "video",
+      "blocks": {
+        "heading_WnUQdE": {
+          "type": "heading",
+          "settings": {
+            "text": "Retire un accesorio de PVC pegado en segundos",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WnUQdE"
+      ],
+      "name": "Video",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Retirez_un_raccord_PVC_Colle_en_quelques_secondes_2.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/f0fbeef5d2a64c0f88876d648a62d535.mp4",
+        "external_video_url": "",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 30
       }
     },
     "slideshow": {
@@ -373,7 +384,8 @@
         "kaching_bundles_app_block_hqyk9T": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "{{section.settings.product}}"
+            "product": "{{section.settings.product}}",
+            "manual_deal_block_id": ""
           }
         },
         "buy-buttons": {
@@ -616,7 +628,7 @@
     }
   },
   "order": [
-    "image_with_text_overlay_AtMn7a",
+    "video_4mca6b",
     "slideshow",
     "logo_list_EkwcUr",
     "rich_text_D3z7Mc",
